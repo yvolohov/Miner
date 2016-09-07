@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_margin="2dp"
+            android:contentDescription="@string/empty_string"
+            android:src="@drawable/time" />
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/border3"
+            android:gravity="center"
+            android:text="@string/time_view_def"
+            android:textColor="@color/FONT_COLOR_TWO"
+            android:textSize="@dimen/MEDIUM_FONT" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_margin="2dp"
+            android:contentDescription="@string/empty_string"
+            android:src="@drawable/flag" />
+
+        <TextView
+            android:id="@+id/tvFlags"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/border3"
+            android:gravity="center"
+            android:text="@string/flags_view_def"
+            android:textColor="@color/FONT_COLOR_TWO"
+            android:textSize="@dimen/MEDIUM_FONT" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <com.yvolohov.miner.MinerScreen
+            android:id="@+id/svMinerScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_span="4"
+            android:layout_weight="1"
+            android:background="@drawable/border" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/btnMax"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector"
+            android:contentDescription="@string/empty_string"
+            android:onClick="onClick"
+            android:src="@drawable/zoom_plus" />
+
+        <ImageButton
+            android:id="@+id/btnMin"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector"
+            android:contentDescription="@string/empty_string"
+            android:onClick="onClick"
+            android:src="@drawable/zoom_minus" />
+
+        <ImageButton
+            android:id="@+id/btnRestart"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector"
+            android:contentDescription="@string/empty_string"
+            android:onClick="onClick"
+            android:src="@drawable/restart" />
+
+        <ImageButton
+            android:id="@+id/btnExit"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector"
+            android:contentDescription="@string/empty_string"
+            android:onClick="onClick"
+            android:src="@drawable/menu" />
+    </TableRow>
+
+</TableLayout>

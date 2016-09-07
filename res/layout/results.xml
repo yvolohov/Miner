@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="3dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="@string/item_results"
+            android:textColor="@color/FONT_COLOR"
+            android:textSize="@dimen/EXTRA_BIG_FONT" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border" >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/item_new_simple"
+                        android:textColor="@color/FONT_COLOR"
+                        android:textSize="@dimen/BIG_FONT" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginRight="9dp"
+                    android:layout_marginTop="3dp" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/sub_item_new_squ"
+                        android:textColor="@color/FONT_COLOR"
+                        android:textSize="@dimen/MEDIUM_FONT" />
+
+                    <TextView
+                        android:id="@+id/tvSimpleSqu"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border3"
+                        android:gravity="center"
+                        android:text="@string/time_view_def"
+                        android:textColor="@color/FONT_COLOR"
+                        android:textSize="@dimen/MEDIUM_FONT" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginRight="9dp"
+                    android:layout_marginTop="3dp" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/sub_item_new_hex"
+                        android:textColor="@color/FONT_COLOR"
+                        android:textSize="@dimen/MEDIUM_FONT" />
+
+                    <TextView
+                        android:id="@+id/tvSimpleHex"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border3"
+                        android:gravity="center"
+                        android:text="@string/time_view_def"
+                        android:textColor="@color/FONT_COLOR"
+                        android:textSize="@dimen/MEDIUM_FONT" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/item_new_medium"
+                        android:textColor="@color/FONT_COLOR"
+                        android:textSize="@dimen/BIG_FONT" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginRight="9dp"
+                    android:layout_marginTop="3dp" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/sub_item_new_squ"
+                        android:textColor="@color/FONT_COLOR"
+                        android:textSize="@dimen/MEDIUM_FONT" />
+
+                    <TextView
+                        android:id="@+id/tvMediumSqu"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border3"
+                        android:gravity="center"
+                        android:text="@string/time_view_def"
+                        android:textColor="@color/FONT_COLOR"
+                        android:textSize="@dimen/MEDIUM_FONT" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginRight="9dp"
+                    android:layout_marginTop="3dp" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/sub_item_new_hex"
+                        android:textColor="@color/FONT_COLOR"
+                        android:textSize="@dimen/MEDIUM_FONT" />
+
+                    <TextView
+                        android:id="@+id/tvMediumHex"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border3"
+                        android:gravity="center"
+                        android:text="@string/time_view_def"
+                        android:textColor="@color/FONT_COLOR"
+                        android:textSize="@dimen/MEDIUM_FONT" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/item_new_hard"
+                        android:textColor="@color/FONT_COLOR"
+                        android:textSize="@dimen/BIG_FONT" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginRight="9dp"
+                    android:layout_marginTop="3dp" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/sub_item_new_squ"
+                        android:textColor="@color/FONT_COLOR"
+                        android:textSize="@dimen/MEDIUM_FONT" />
+
+                    <TextView
+                        android:id="@+id/tvHardSqu"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border3"
+                        android:gravity="center"
+                        android:text="@string/time_view_def"
+                        android:textColor="@color/FONT_COLOR"
+                        android:textSize="@dimen/MEDIUM_FONT" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="9dp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginRight="9dp"
+                    android:layout_marginTop="3dp" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/sub_item_new_hex"
+                        android:textColor="@color/FONT_COLOR"
+                        android:textSize="@dimen/MEDIUM_FONT" />
+
+                    <TextView
+                        android:id="@+id/tvHardHex"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border3"
+                        android:gravity="center"
+                        android:text="@string/time_view_def"
+                        android:textColor="@color/FONT_COLOR"
+                        android:textSize="@dimen/MEDIUM_FONT" />
+                </TableRow>
+            </TableLayout>
+        </ScrollView>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="3dp" >
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector"
+            android:onClick="onClick"
+            android:text="@string/button_ok"
+            android:textSize="@dimen/MEDIUM_FONT" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector"
+            android:onClick="onClick"
+            android:text="@string/button_clear_tab"
+            android:textSize="@dimen/MEDIUM_FONT" />
+    </TableRow>
+
+</TableLayout>

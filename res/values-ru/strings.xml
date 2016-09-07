@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Шестигранный Cапер</string>
+    <string name="item_continue">Продолжить</string>
+    <string name="sub_item_continue">Возвращение к текущей игре</string>  
+    <string name="item_new">Новая игра</string>
+    <string name="sub_item_new_squ">Традиционная игра</string>
+    <string name="sub_item_new_hex">Hex-режим</string>        
+    <string name="item_new_simple">Новичок</string>
+    <string name="sub_item_new_simple">Поле 9x9, 10 мин</string>
+    <string name="item_new_medium">Любитель</string>
+    <string name="sub_item_new_medium">Поле 16x16, 40 мин</string>     
+    <string name="item_new_hard">Профессионал</string>
+    <string name="sub_item_new_hard">Поле 30x16, 99 мин</string> 
+    <string name="item_new_own">Своя игра</string>
+    <string name="sub_item_new_own">Игра с собственными настройками</string>
+    <string name="item_results">Рекорды</string>
+    <string name="sub_item_results">Посмотреть лучшие результаты</string>    
+    <string name="item_rules">Правила</string>
+    <string name="sub_item_rules">Посмотреть правила игры</string>
+    <string name="item_return">Назад</string>
+    <string name="sub_item_return">К предидущему меню</string>
+    <string name="item_exit">Выход</string> 
+    <string name="sub_item_exit">Покинуть игру</string>    
+    <string name="field_width">Ширина поля:</string>
+    <string name="field_height">Высота поля:</string>
+    <string name="mines_count">Мин на поле:</string>
+    <string name="button_to_game">Играть</string>
+    <string name="button_clear_tab">Oчистить таблицу</string>
+    <string name="button_ok">OK</string>    
+    <string name="button_cancel">Отмена</string>
+    <string name="win_record">Рекордное время прохождения:</string>
+    <string name="author">Ярослав Волохов, 2012</string>
+    
+    <string name="time_view_def">00:00:00</string>
+    <string name="flags_view_def">000</string>
+    <string name="empty_string"></string>        
+</resources>
